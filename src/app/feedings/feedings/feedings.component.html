@@ -1,0 +1,28 @@
+<mat-toolbar color="accent">
+    <span>Feeding: Bobby</span>
+    <span class="toolbar-spacer"></span>
+    <button mat-icon-button>
+      <mat-icon>add</mat-icon> 
+    </button> 
+</mat-toolbar>
+
+<div fxLayout="column" fxLayoutAlign="space-around center" >
+
+  <h1>00:00:00</h1>
+
+  <mat-button-toggle-group #group="matButtonToggleGroup">
+    <mat-button-toggle value="nursing">
+      Nursing
+    </mat-button-toggle>
+    <mat-button-toggle value="bottle">
+      Bottle
+    </mat-button-toggle>
+  </mat-button-toggle-group>
+
+  <button mat-raised-button color="accent">Start Timer</button>
+
+  <mat-divider></mat-divider>
+
+  <p>No feedings entries have been recorded yet.</p>
+
+</div>

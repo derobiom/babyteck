@@ -1,0 +1,156 @@
+<mat-toolbar color="accent">
+    <span>Dashboard</span>
+</mat-toolbar>
+<mat-card>
+
+  <div fxLayout="column" fxLayoutAlign="space-around center">
+
+    <div>
+      
+      <div fxLayout="row" fxLayoutAlign="space-evenly center">
+      
+        <div fxFlex="25">
+          <button mat-icon-button class="arrow" fxFlexOffset="-40">
+            <mat-icon>keyboard_arrow_left</mat-icon> 
+          </button> 
+        </div>
+
+        <div fxLayout="column" fxLayoutAlign="space-around center" fxFlex="50">
+            <div>
+              <button mat-icon-button class="photobox">
+                <mat-icon class="icon">camera_enhance</mat-icon>
+                <div>Take my picture today!</div>
+              </button>
+            </div>
+        </div>
+
+        <div fxFlex="25">
+        </div>
+
+      </div>
+
+    </div>
+
+    <div>
+
+      <mat-accordion>
+
+        <mat-expansion-panel>
+
+          <mat-expansion-panel-header>
+            <mat-panel-title>Daily Summary</mat-panel-title>
+          </mat-expansion-panel-header>     
+
+          <mat-list role="list">
+            <mat-list-item role="listitem">
+              <div class="summary-icon">
+                <button mat-mini-fab color="accent" > 
+                  <mat-icon aria-label="Example icon-button with a heart icon">restaurant</mat-icon>
+                </button>
+              </div>
+              <span  class="summary-text">Feedings</span>
+              <span  class="summary-text">3 hrs Ago</span>
+              <div class="summary-icon">
+                  <button mat-mini-fab color="accent" > 
+                    <mat-icon aria-label="Example icon-button with a heart icon">add</mat-icon>
+                  </button>
+                </div>
+            </mat-list-item>
+            <mat-list-item role="listitem">
+              <div class="summary-icon">
+                <button mat-mini-fab color="accent" > 
+                  <mat-icon aria-label="Example icon-button with a heart icon">delete</mat-icon>
+                </button>
+              </div>
+              <span  class="summary-text">Diapers</span>
+              <span  class="summary-text">4 hrs Ago</span>
+              <div class="summary-icon">
+                  <button mat-mini-fab color="accent" > 
+                    <mat-icon aria-label="Example icon-button with a heart icon">add</mat-icon>
+                  </button>
+                </div>
+            </mat-list-item>
+            <mat-list-item role="listitem">
+              <div class="summary-icon">
+                <button mat-mini-fab color="accent" > 
+                  <mat-icon aria-label="Example icon-button with a heart icon">hotel</mat-icon>
+                </button>
+              </div>
+              <span  class="summary-text">Sleep</span>
+              <span  class="summary-text">3 hrs Ago</span>
+              <div class="summary-icon">
+                  <button mat-mini-fab color="accent" > 
+                    <mat-icon aria-label="Example icon-button with a heart icon">add</mat-icon>
+                  </button>
+                </div>
+            </mat-list-item>
+            <mat-list-item role="listitem">
+              <div class="summary-icon">
+                <button mat-mini-fab color="accent" > 
+                  <mat-icon aria-label="Example icon-button with a heart icon">opacity</mat-icon>
+                </button>
+              </div>
+              <span  class="summary-text">Pumping Total</span>
+              <span  class="summary-text">13 hrs Ago</span>
+              <div class="summary-icon">
+                <button mat-mini-fab color="accent" > 
+                  <mat-icon aria-label="Example icon-button with a heart icon">add</mat-icon>
+                </button>
+              </div>
+            </mat-list-item>
+          </mat-list>     
+         
+        </mat-expansion-panel>
+
+        <mat-expansion-panel>
+
+          <mat-expansion-panel-header>
+            <mat-panel-title>Handbook</mat-panel-title>
+          </mat-expansion-panel-header>     
+
+          <mat-card>
+              <mat-card-header>
+                  <mat-card-title>Poll</mat-card-title>
+                  <mat-card-subtitle>Where did you deliver your baby?</mat-card-subtitle>
+              </mat-card-header>
+              <mat-card-content><a href="#">Click here to answer</a></mat-card-content>
+          </mat-card>       
+        
+        </mat-expansion-panel>
+
+        <mat-expansion-panel>
+
+          <mat-expansion-panel-header>
+            <mat-panel-title>Daily Schedule</mat-panel-title>
+          </mat-expansion-panel-header>     
+
+          <mat-list role="list">
+            <mat-list-item role="listitem">Item 1</mat-list-item>
+            <mat-list-item role="listitem">Item 2</mat-list-item>
+            <mat-list-item role="listitem">Item 3</mat-list-item>
+          </mat-list>        
+          
+        </mat-expansion-panel>
+      
+        <mat-expansion-panel>
+
+          <mat-expansion-panel-header>
+            <mat-panel-title>Daily Activity</mat-panel-title>
+          </mat-expansion-panel-header>     
+
+          <mat-list role="list">
+            <mat-list-item role="listitem">Item 1</mat-list-item>
+            <mat-list-item role="listitem">Item 2</mat-list-item>
+            <mat-list-item role="listitem">Item 3</mat-list-item>
+          </mat-list>        
+          
+        </mat-expansion-panel>
+
+      </mat-accordion>
+
+    </div>
+    
+  </div>
+
+</mat-card>
+
